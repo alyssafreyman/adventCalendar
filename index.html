@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class = "calendar-title">
+        <h1>tiny december things for you</h1>
+        <h2>open one present a day (no peeking!)</h2>
+    </div>
 <div class="calendar">
     <div class="day" id="day1"><img src="images/1.jpg" alt="Day 1"></div>
     <div class="day" id="day2"><img src="images/2.jpg" alt="Day 2"></div>
@@ -39,13 +43,29 @@
 <div id="modal" class="modal">
     <div class="modal-content">
         <span id="modal-close" class="close">&times;</span>
-        <p id="modal-message"></p>
-        <div id="modal-content"></div>
+
+        <!-- Header with date -->
+        <div class="modal-header">
+            <h3 id="modal-date"></h3>
+        </div>
+
+        <!-- Body -->
+        <div id="modal-body" class="modal-body">
+            <!-- Background image -->
+            <img id="modal-background-img" src="" alt="Background" style="display:none; width:auto; height:auto; max-width:90vw; max-height:80vh; border-radius:8px;">
+
+            <!-- Optional overlay image -->
+            <img id="modal-overlay-img" src="" alt="Overlay" style="display:none; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); max-width:80%; max-height:80%; z-index:2;">
+
+            <!-- Overlay text/content -->
+            <div class="overlay-content">
+                <p id="modal-message"></p>
+                <div id="modal-content-inner"></div>
+            </div>
+        </div>
     </div>
 </div>
 
-
 <script src="script.js"></script>
-
 </body>
 </html>
