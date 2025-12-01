@@ -3,8 +3,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const today = new Date();
     //get current day of the month
-    // const currentDay = today.getDate();
-    const currentDay = 10;
+    const currentDay = today.getDate();
+    // const currentDay = 10;
 
     //custom content for each day
     const customContent = {
