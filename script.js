@@ -51,18 +51,103 @@ document.addEventListener("DOMContentLoaded", () => {
             content: [
             {
             type: 'image',
-            content: "images/humanBean.jpg",
-            width: 'auto',
-            height: '50%',
-            // description: 'Coffee is on me! :)',
+            content: "images/snoopy.jpg",
+            width: '70%',
+            height: 'auto',
+            
         },
         {
             type: 'text',
-            content: 'Coffee is on me today :)',
+            content: 'Reflection Prompt:',
             },
+            
+            {
+            type: 'text',
+            content: 'Take about 2 minutes to think of a favorite holiday memory and share with the family later.',
+            },
+
             ],
         background: "images/wallpaper3.jpg"
     },
+
+4: {
+            content: [
+            {
+                type: 'image',
+                content: "images/STfireplace.jpg",
+                width: '100%',
+                height: 'auto'
+            },
+            {
+                type: 'text',
+                content: 'Some Stranger Things holiday ambience while you work...',
+                // width: '60%',
+            },
+            {
+                type: 'link',
+                content: "https://www.netflix.com/title/82134925",
+            }
+         ],
+         background: "images/wallpaper6.jpg"
+        },
+
+5: {
+            content: [
+            {
+            type: 'image',
+            content: "images/christmasCarol.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Christmas Carol Day! See you tonight!',
+            },
+            ],
+        background: "images/wallpaper5.jpg"
+    },
+    6: {
+            content: [
+            {
+            type: 'image',
+            content: "images/elfMovie.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Movie Night!',
+            },
+            {
+            type: 'text',
+            content: 'Draw a number 1-4 to decide who picks the movie tonight.',
+            },
+            ],
+        background: "images/wallpaper4.jpg"
+    },
+    7: {
+            content: [
+            {
+            type: 'image',
+            content: "images/boardGame.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Game Night!',
+            },
+            {
+            type: 'text',
+            content: '(can you guess that Christmas movie?)',
+            },
+            ],
+        background: "images/wallpaper1.jpg"
+    },
+
 };
 
     //Loop through each day (1 to 25)
