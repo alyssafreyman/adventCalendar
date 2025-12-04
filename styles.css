@@ -36,13 +36,33 @@ body {
 
 .calendar {
 display: grid;
-grid-template-columns: repeat(5, 100px);
+/* grid-template-columns: repeat(auto-fit, minmax(70px, 1fr)); */
+/* grid-template-columns: repeat(5, 1fr); */
 gap: 20px;
+/* width: 100%;
+max-width: 600px; */
+padding:20px;
+}
+
+@media (min-width: 700px) {
+    .calendar {
+        grid-template-columns: repeat(5, 1fr);
+        max-width: 700px;
+        margin: auto;
+    }
+}
+
+@media (max-width: 699px){
+    .calendar {
+        grid-template-columns: repeat(auto-fit, minmax (80px, 1fr));
+        max-width: 400px;
+    }
 }
 
 .day {
 width: 100px;
-height: 100px;
+aspect-ratio: 1 / 1;
+/* height: 100px; */
 cursor: pointer;
 border-radius: 8px;
 }
@@ -143,7 +163,7 @@ border-radius: 8px;
     padding:0;
     /* border-radius: 8px; */
     max-width:90vw;
-    max-height:80mh;
+    max-height:80vh;
     object-fit: contain;
 }
 
