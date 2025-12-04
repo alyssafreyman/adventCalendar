@@ -54,7 +54,7 @@ margin-right: auto;
 
 @media (max-width: 699px){
     .calendar {
-        grid-template-columns: repeat(auto-fit, minmax (80px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
         max-width: 400px;
         padding:10px;
     }
