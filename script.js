@@ -3,8 +3,8 @@
 document.addEventListener("DOMContentLoaded", () => {
     const today = new Date();
     //get current day of the month
-    const currentDay = today.getDate();
-    // const currentDay = 10;
+    // const currentDay = today.getDate();
+    const currentDay = 25;
 
     //custom content for each day
     const customContent = {
@@ -107,7 +107,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
         background: "images/wallpaper5.jpg"
     },
-    6: {
+6: {
             content: [
             {
             type: 'image',
@@ -127,7 +127,87 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
         background: "images/wallpaper4.jpg"
     },
-    7: {
+7: {
+            content: [
+            {
+            type: 'image',
+            content: "images/christmasMovie.jpg",
+            width: 'auto',
+            height: '80%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Test your Christmas movie knowledge with this crossword:',
+            },
+            {
+            type: 'link',
+            content: "https://docs.google.com/document/d/1bpjvjPzWrFi2BqJa5EpYsD2TCaB3i-bW0hA5MJBOsrA/edit?usp=sharing",
+            },
+            ],
+        background: "images/wallpaper1.jpg"
+    },
+8: {
+            content: [
+            {
+            type: 'image',
+            content: "images/christmasGratitude.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Reflection Prompt:',
+            },
+            {
+            type: 'text',
+            content: 'Write down five things that you are grateful for this season and share with the family later.',
+            },
+            ],
+        background: "images/wallpaper3.jpg"
+    },
+9: {
+            content: [
+            {
+            type: 'image',
+            content: "images/elfMovie.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Movie Night!',
+            },
+            {
+            type: 'text',
+            content: 'Draw a number 1-4 to decide who picks the movie tonight.',
+            },
+            ],
+        background: "images/wallpaper2.jpg"
+    },
+10: {
+            content: [
+            {
+            type: 'image',
+            content: "images/elfMovie.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Movie Night!',
+            },
+            {
+            type: 'text',
+            content: 'Draw a number 1-4 to decide who picks the movie tonight.',
+            },
+            ],
+        background: "images/wallpaper4.jpg"
+    },
+11: {
             content: [
             {
             type: 'image',
@@ -145,9 +225,68 @@ document.addEventListener("DOMContentLoaded", () => {
             content: '(can you guess that Christmas movie?)',
             },
             ],
+        background: "images/wallpaper5.jpg"
+    },
+    12: {
+            content: [
+            {
+            type: 'image',
+            content: "images/hotCocoaFlight.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Hot Cocoa Flight tonight!',
+            },
+            {
+            type: 'text',
+            content: 'try to guess what flavors there will be.',
+            },
+            ],
+        background: "images/wallpaper6.jpg"
+    },
+13: {
+            content: [
+            {
+            type: 'image',
+            content: "images/homeAlone.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Movie Night!',
+            },
+            {
+            type: 'text',
+            content: 'Draw a number 1-3 to decide who picks the movie tonight.',
+            },
+            ],
         background: "images/wallpaper1.jpg"
     },
-
+    14: {
+            content: [
+            {
+            type: 'image',
+            content: "images/homeAlone.jpg",
+            width: 'auto',
+            height: '90%',
+            
+        },
+        {
+            type: 'text',
+            content: 'Movie Night!',
+            },
+            {
+            type: 'text',
+            content: 'Draw a number 1-3 to decide who picks the movie tonight.',
+            },
+            ],
+        background: "images/wallpaper1.jpg"
+    },
 };
 
     //Loop through each day (1 to 25)
