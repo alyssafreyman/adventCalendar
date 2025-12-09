@@ -171,18 +171,18 @@ document.addEventListener("DOMContentLoaded", () => {
             content: [
             {
             type: 'image',
-            content: "images/elfMovie.jpg",
-            width: 'auto',
-            height: '90%',
+            content: "images/firstAdventCalendar.jpg",
+            width: '60%',
+            height: 'auto%',
             
         },
-        {
-            type: 'text',
-            content: 'Movie Night!',
-            },
+        // {
+        //     type: 'text',
+        //     content: 'Fun Fact',
+        //     },
             {
             type: 'text',
-            content: 'Draw a number 1-4 to decide who picks the movie tonight.',
+            content: 'Did you know that advent calendars started with German Protestants making chalk marks or lighting candles to count down to Christmas? It evolved into printed versions in the early 1900s, and chocolate ones appeared in the 1950s after President Eisenhower popularized them in the U.S.',
             },
             ],
         background: "images/wallpaper2.jpg"
@@ -242,7 +242,7 @@ document.addEventListener("DOMContentLoaded", () => {
             },
             {
             type: 'text',
-            content: 'try to guess what flavors there will be.',
+            content: 'Try to guess what flavors there will be.',
             },
             ],
         background: "images/wallpaper6.jpg"
