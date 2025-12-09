@@ -191,18 +191,18 @@ document.addEventListener("DOMContentLoaded", () => {
             content: [
             {
             type: 'image',
-            content: "images/elfMovie.jpg",
+            content: "images/spa.jpg",
             width: 'auto',
             height: '90%',
             
         },
         {
             type: 'text',
-            content: 'Movie Night!',
+            content: 'IOU:',
             },
             {
             type: 'text',
-            content: 'Draw a number 1-4 to decide who picks the movie tonight.',
+            content: 'An at-home spa day! Expect face and hand masks soon.',
             },
             ],
         background: "images/wallpaper4.jpg"
@@ -271,19 +271,19 @@ document.addEventListener("DOMContentLoaded", () => {
             content: [
             {
             type: 'image',
-            content: "images/homeAlone.jpg",
-            width: 'auto',
-            height: '90%',
+            content: "images/puzzles.jpg",
+            width: '50%',
+            height: 'auto',
             
         },
         {
             type: 'text',
-            content: 'Movie Night!',
+            content: 'Start a puzzle and put on some Christmas music!',
             },
-            {
-            type: 'text',
-            content: 'Draw a number 1-3 to decide who picks the movie tonight.',
-            },
+            // {
+            // type: 'text',
+            // content: 'Draw a number 1-3 to decide who picks the movie tonight.',
+            // },
             ],
         background: "images/wallpaper1.jpg"
     },
