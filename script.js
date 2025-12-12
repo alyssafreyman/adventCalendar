@@ -238,11 +238,11 @@ document.addEventListener("DOMContentLoaded", () => {
         },
         {
             type: 'text',
-            content: 'Hot Cocoa Flight tonight!',
+            content: 'Hot Cocoa tonight!',
             },
             {
             type: 'text',
-            content: 'Try to guess what flavors there will be.',
+            content: 'We will be making some hot chocolate bombs with a toppings bar!',
             },
             ],
         background: "images/wallpaper6.jpg"
