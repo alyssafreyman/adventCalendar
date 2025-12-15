@@ -287,6 +287,49 @@ document.addEventListener("DOMContentLoaded", () => {
             ],
         background: "images/wallpaper1.jpg"
     },
+
+ 15: {
+            content: [
+            {
+            type: 'image',
+            content: "images/goals.jpg",
+            width: '90%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Reflection Prompt:',
+            },
+            {
+            type: 'text',
+            content: 'What is one thing that you are proud of accomplishing this year, and what is a goal you have for next year?',
+            },
+            ],
+        background: "images/wallpaper2.jpg"
+    },
+16: {
+            content: [ 
+            {
+            type: 'image',
+            content: "images/stockings.jpg",
+            width: '50%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Christmas stockings originated from the legend of St. Nicholas. He would secretly drop gold coins down the chimney, where they landed in stockings drying by the fire. This led to the tradition of hanging them for Santa to fill with goodies like fruit, nuts, and small toys. Oranges often symbolize the original gold.',
+            },
+            // {
+            // type: 'text',
+            // content: 'Draw a number 1-3 to decide who picks the movie tonight.',
+            // },
+            ],
+        background: "images/wallpaper3.jpg"
+    },
+
+
 };
 
     //Loop through each day (1 to 25)
