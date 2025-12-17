@@ -329,6 +329,121 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "images/wallpaper3.jpg"
     },
 
+17: {
+            content: [ 
+            {
+            type: 'image',
+            content: "images/bremenMarket.jpg",
+            width: '100%',
+            height: 'auto',
+            
+        },
+    
+        {
+            type: 'text',
+            content: 'Enjoy this 360 degree walkthrough of the Christmas markets in Bremen, Germany.',
+            },
+            {
+                type: 'link',
+                content: "https://youtu.be/mJSxxRROW4g?si=YxTPC-XtgEcrmfN4",
+                // description: 'Enjoy this playlist I made for you!',
+            }
+
+            ],
+        background: "images/wallpaper4.jpg"
+    },
+    18: {
+            content: [ 
+            {
+            type: 'image',
+            content: "images/grinchCookies.jpg",
+            width: '55%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Found a Grinch cookie recipe for us to try!',
+            },
+
+            {
+                type: 'link',
+                content: "https://rosebakes.com/easy-grinch-cookies-recipe-no-cake-mix/",
+                // description: 'Enjoy this playlist I made for you!',
+            },
+            {
+            type: 'text',
+            content: 'What is your favorite Christmas cookie or dessert?',
+            },
+
+            ],
+        background: "images/wallpaper5.jpg"
+    },
+    19: {
+            content: [ 
+            {
+            type: 'image',
+            content: "images/cooking.jpg",
+            width: '100%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Happy Friday!',
+            },
+            {
+            type: 'text',
+            content: 'I will be making dinner tonight, so you both can just relax and have your wine time.',
+            },
+            ],
+        background: "images/wallpaper6.jpg"
+    },
+    20: {
+            content: [ 
+            {
+            type: 'image',
+            content: "images/rudolph.jpg",
+            width: '90%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Movie Night - Double Feature this weekend!',
+            },
+            {
+            type: 'text',
+            content: 'Draw a number between 1-3 to decide who picks the movie tonight.',
+            },
+            ],
+        background: "images/wallpaper1.jpg"
+    },
+
+21: {
+        content: [ 
+            {
+            type: 'image',
+            content: "images/nativity.jpg",
+            width: '90%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Enjoy this short poem by Marian Swinger:',
+            },
+            {
+           type: 'link',
+                content: "https://www.canva.com/design/DAG7vLOcphQ/tLPyIPusU9K5Xgr1VlqiQg/view?utm_content=DAG7vLOcphQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7cf28eeddb",
+                // description: 'Enjoy this playlist I made for you!',
+            }
+            ],
+        background: "images/wallpaper1.jpg"
+    },
+
+
+
 
 };
 
