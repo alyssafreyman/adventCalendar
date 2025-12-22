@@ -464,6 +464,77 @@ document.addEventListener("DOMContentLoaded", () => {
         background: "images/wallpaper2.jpg"
     },
 
+    23: {
+        content: [ 
+            {
+            type: 'image',
+            content: "images/houseLights.jpg",
+            width: '80%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Grab some cocoa and your Christmas playlist. We are driving through a neighborhood to see lights tonight!',
+            },
+            // {
+        //    type: 'link',
+        //         content: "https://www.canva.com/design/DAG7vLOcphQ/tLPyIPusU9K5Xgr1VlqiQg/view?utm_content=DAG7vLOcphQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7cf28eeddb",
+        //         // description: 'Enjoy this playlist I made for you!',
+        //     }
+            ],
+        background: "images/wallpaper3.jpg"
+    },
+
+    24: {
+        content: [ 
+            {
+            type: 'image',
+            content: "images/snoopy2.jpg",
+            width: '80%',
+            height: 'auto',
+            
+        },
+        
+        {
+            type: 'text',
+            content: 'Reflection prompt:',
+        },
+        {
+            type: 'text',
+            content: 'What are you most excited for tomorrow?',
+        },
+            // {
+        //    type: 'link',
+        //         content: "https://www.canva.com/design/DAG7vLOcphQ/tLPyIPusU9K5Xgr1VlqiQg/view?utm_content=DAG7vLOcphQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7cf28eeddb",
+        //         // description: 'Enjoy this playlist I made for you!',
+        //     }
+            ],
+        background: "images/wallpaper4.jpg"
+    },
+
+    25: {
+        content: [ 
+            {
+            type: 'image',
+            content: "images/geese.jpg",
+            width: '80%',
+            height: 'auto',
+            
+        },
+        {
+            type: 'text',
+            content: 'Merry Christmas! I hope you enjoyed the advent calendar.',
+            },
+            // {
+        //    type: 'link',
+        //         content: "https://www.canva.com/design/DAG7vLOcphQ/tLPyIPusU9K5Xgr1VlqiQg/view?utm_content=DAG7vLOcphQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h7cf28eeddb",
+        //         // description: 'Enjoy this playlist I made for you!',
+        //     }
+            ],
+        background: "images/wallpaper5.jpg"
+    },
+
 
 };
 
